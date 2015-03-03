@@ -10,13 +10,17 @@ root      3523  0.0  0.1 626052 12992 ?        Ssl  17:01   0:00 /usr/bin/docker
 (A) Create swarm and cluster
 -----------
 docker -H tcp://0.0.0.0:2375 run --rm swarm create
+(this id will be used by token as cluster ID)
 docker -H tcp://0.0.0.0:2375 run -d swarm join --addr=220.135.180.119:2375 token://c019340ab221db663eb344f2a844bc89
+
 swarm manage -H tcp://220.135.180.119:4444 token://c019340ab221db663eb344f2a844bc89
+
 
 
 (B)Test it through manage ip:port
 ------------
 docker -H tcp://220.135.180.119:4444 info
+
 docker -H tcp://220.135.180.119:4444 ps
 
 
@@ -30,5 +34,6 @@ docker -H tcp://220.135.180.119:4444 run -e constraint:computing_unit==opencl-2_
 reference: 
 ----------------
 https://github.com/docker/swarm/tree/master/scheduler/filter
+
 https://github.com/docker/swarm
 
