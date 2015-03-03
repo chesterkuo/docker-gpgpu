@@ -1,4 +1,5 @@
-Run Docker with following setting( modify /etc/default/docker) 
+=================================================================
+Runing Docker daemon with following setting( modify /etc/default/docker) 
 =================================================================
 
 chester@cheser-System-Product-Name:/mnt/disk1/OpenCL$ ps aux|grep docker
@@ -29,7 +30,7 @@ docker -H tcp://220.135.180.119:4444 run -e constraint:computing_unit==opencl-2_
 
 
 ==============================================================================================
-<referene : 
+reference: 
 https://github.com/docker/swarm/tree/master/scheduler/filter>
 https://github.com/docker/swarm
 ==============================================================================================
