@@ -1,6 +1,6 @@
 Run with vexcl/sort application between docker container and native env.
 
-Native env
+[ Native env]
 
 chester@cheser-System-Product-Name:/tmp/opencl$ time ./sort
 
@@ -37,7 +37,7 @@ sys     0m9.125s
 
 -----------------------------------
 
-Docker container
+[ Docker container ]
 
 root@0dce4907ee97:/tmp/opencl# time ./sort
 seed: 1425380076
