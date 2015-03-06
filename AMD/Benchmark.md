@@ -6,7 +6,9 @@ chester@cheser-System-Product-Name:/tmp/opencl$ time ./sort
 
 seed: 1425380037
 1. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 2. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 
 Running 6 test cases...
 
@@ -18,11 +20,14 @@ user    0m17.402s
 
 sys     0m8.621s
 
+
 chester@cheser-System-Product-Name:/tmp/opencl$ time ./sort
 
 seed: 1425380056
 1. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 2. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 
 Running 6 test cases...
 
@@ -42,6 +47,7 @@ sys     0m9.125s
 root@0dce4907ee97:/tmp/opencl# time ./sort
 seed: 1425380076
 1. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 2. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
 
 Running 6 test cases...
@@ -53,10 +59,13 @@ real    0m15.873s
 user    0m17.185s
 
 sys     0m7.688s
+
 root@0dce4907ee97:/tmp/opencl# time ./sort
 seed: 1425380109
 1. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 2. AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G (AMD Accelerated Parallel Processing)
+
 
 Running 6 test cases...
 
